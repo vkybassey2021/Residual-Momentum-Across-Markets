@@ -61,6 +61,13 @@ Residual momentum is not universally better than traditional momentum. Whether r
 └── README.md
 ```
 
-## Note on Data
+## Data Availability
 
-The analysis uses survivorship-free index constituent data for the S&P 500 and Stoxx 600. If the raw data is proprietary or restricted, it is not included in this repository.
+The datasets used in this project were provided by the course instructor for educational purposes and are therefore not redistributed in this repository.
+
+To reproduce the analysis, users should obtain the original datasets directly from the course instructor (or the official course materials, where available) and place them in the `data/` directory before running the analysis.
+
+The code expects the following input files:
+
+* `SPX500 Original.xlsm`
+* `Stoxx 600 Originale.xlsm`
